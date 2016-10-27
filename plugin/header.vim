@@ -5,6 +5,7 @@
 " SUMMARY:  When a new file is created of specific types, a header is added on the top.
 " INSTALL:  Easy! Copy the file to vim's plugin directory (global or personal)
 "           and run vim.
+" MODIFIED: MinskyBA
 
 function s:filetype ()
 
