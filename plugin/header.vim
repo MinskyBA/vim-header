@@ -7,7 +7,7 @@
 "           and run vim.
 " MODIFIED: MinskyBA
 
-function s:filetype ()
+function! s:filetype ()
 
   let s:file = expand("<afile>:t")
   let l:ft = &ft
@@ -44,7 +44,7 @@ function s:filetype ()
 
 endfunction
 
-function s:insert ()
+function! s:insert ()
 
   call s:filetype ()
 
